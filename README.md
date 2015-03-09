@@ -5,6 +5,8 @@
 **django-flat-theme** brings fresh air to the default Django Admin interface which hasn't changed 10 years from the very first version of Django framework. This theme just makes UI modern and clean.
 
 ## Installation
+Install via pip: ```pip install git+https://github.com/elky/django-flat-theme.git@master```
+
 
 1. Just put ```flat``` app in your **INSTALLED_APPS** section:
 
