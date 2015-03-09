@@ -1,0 +1,455 @@
+@import url('widgets.css');
+
+/* FORM ROWS */
+
+.form-row {
+    overflow: hidden;
+    padding: 12px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-row.errors {
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid #eee;
+    background: none;
+}
+
+.form-row.errors ul.errorlist li {
+    padding-left: 0;
+}
+
+.form-row img, .form-row input {
+    vertical-align: middle;
+}
+
+form .form-row p {
+    padding-left: 0;
+    font-size: 11px !important;
+}
+
+.hidden {
+    display: none;
+}
+
+/* FORM LABELS */
+
+form h4 {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+label {
+    font-weight: normal !important;
+    color: #666;
+    font-size: 13px;
+}
+
+.required label, label.required {
+    font-weight: bold !important;
+    color: #333 !important;
+}
+
+/* RADIO BUTTONS */
+
+form ul.radiolist li {
+    list-style-type: none;
+}
+
+form ul.radiolist label {
+    float: none;
+    display: inline;
+}
+
+form ul.radiolist input[type="radio"] {
+    margin: -2px 4px 0 0;
+    padding: 0;
+    outline: none;
+}
+
+form ul.inline {
+    margin-left: 0;
+    padding: 0;
+}
+
+form ul.inline li {
+    float: left;
+    padding-right: 7px;
+}
+
+/* ALIGNED FIELDSETS */
+
+.aligned label {
+    display: block;
+    padding: 0 10px 2px 0;
+    line-height: 30px;
+    float: left;
+    width: 160px;
+    word-wrap: break-word;
+}
+
+.aligned label + p:not(.help) {
+    font-size: 13px !important;
+    padding: 0;
+}
+
+.aligned ul label {
+    display: inline;
+    float: none;
+    width: auto;
+}
+
+.colMS .aligned .vLargeTextField, .colMS .aligned .vXMLLargeTextField {
+    width: 350px;
+}
+
+form .aligned p, form .aligned ul {
+    margin-left: 160px;
+    padding-left: 10px;
+}
+
+form .aligned p.help {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+form .aligned ul li {
+    list-style: none;
+}
+
+form .aligned table p {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.aligned .vCheckboxLabel {
+    float: none !important;
+    display: inline;
+    vertical-align: middle;
+    padding-left: 6px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
+    width: 610px;
+}
+
+.checkbox-row p.help {
+    margin-left: 0;
+    padding-left: 0 !important;
+}
+
+fieldset .field-box {
+    float: left;
+    margin-right: 20px;
+}
+
+/* WIDE FIELDSETS */
+
+.wide label {
+    width: 15em !important;
+}
+
+form .wide p {
+    margin-left: 15em;
+}
+
+form .wide p.help {
+    padding-left: 38px;
+}
+
+.colM fieldset.wide .vLargeTextField, .colM fieldset.wide .vXMLLargeTextField {
+    width: 450px;
+}
+
+/* COLLAPSED FIELDSETS */
+
+fieldset.collapsed * {
+    display: none;
+}
+
+fieldset.collapsed h2, fieldset.collapsed {
+    display: block !important;
+}
+
+fieldset.collapsed {
+    border: 1px solid #c4dce8;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+fieldset.collapsed h2 {
+    background: #f1fff7;
+    color: #666;
+}
+
+fieldset.collapsed .collapse-toggle {
+    background: transparent;
+    display: inline !important;
+}
+
+/* MONOSPACE TEXTAREAS */
+
+fieldset.monospace textarea {
+    font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* SUBMIT ROW */
+
+.submit-row {
+    padding: 20px;
+    margin: 40px 0 0;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    text-align: right;
+    overflow: hidden;
+}
+
+body.popup .submit-row {
+    overflow: auto;
+}
+
+.submit-row input {
+    height: 35px;
+    line-height: 15px;
+    margin: 0 0 0 5px;
+}
+
+.submit-row input.default {
+    margin: 0 0 0 8px;
+    text-transform: uppercase;
+}
+
+.submit-row p {
+    margin: 0.3em;
+}
+
+.submit-row p.deletelink-box {
+    float: left;
+    margin: 0;
+}
+
+.submit-row a.deletelink {
+    display: block;
+    background: #ba2121;
+    border-radius: 4px;
+    padding: 10px 15px;
+    height: 15px;
+    line-height: 15px;
+    color: #fff;
+}
+
+.submit-row a.deletelink:hover,
+.submit-row a.deletelink:active {
+    background: #a41515;
+}
+
+/* CUSTOM FORM FIELDS */
+
+.vSelectMultipleField {
+    vertical-align: top !important;
+}
+
+.vCheckboxField {
+    border: none;
+}
+
+.vDateField, .vTimeField {
+    margin-right: 2px;
+}
+
+.vDateField {
+    min-width: 6.85em;
+}
+
+.vTimeField {
+    min-width: 4.7em;
+}
+
+.vURLField {
+    width: 30em;
+}
+
+.vLargeTextField, .vXMLLargeTextField {
+    width: 48em;
+}
+
+.flatpages-flatpage #id_content {
+    height: 40.2em;
+}
+
+.module table .vPositiveSmallIntegerField {
+    width: 2.2em;
+}
+
+.vTextField {
+    width: 20em;
+}
+
+.vIntegerField {
+    width: 5em;
+}
+
+.vBigIntegerField {
+    width: 10em;
+}
+
+.vForeignKeyRawIdAdminField {
+    width: 5em;
+}
+
+/* INLINES */
+
+.inline-group {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.inline-group thead th {
+    padding: 8px 10px;
+}
+
+.inline-group .aligned label {
+    width: 160px;
+}
+
+.inline-related {
+    position: relative;
+}
+
+.inline-related h3 {
+    margin: 0;
+    color: #666;
+    padding: 3px 5px;
+    font-size: 11px;
+    background: #e1e1e1 url(/static/admin/img/nav-bg.gif) top left repeat-x;
+    border-bottom: 1px solid #ddd;
+}
+
+.inline-related h3 span.delete {
+    float: right;
+}
+
+.inline-related h3 span.delete label {
+    margin-left: 2px;
+    font-size: 11px;
+}
+
+.inline-related fieldset {
+    margin: 0;
+    background: #fff;
+    border: none;
+    width: 100%;
+}
+
+.inline-related fieldset.module h3 {
+    margin: 0;
+    padding: 2px 5px 3px 5px;
+    font-size: 11px;
+    text-align: left;
+    font-weight: bold;
+    background: #bcd;
+    color: #fff;
+}
+
+.inline-group .tabular fieldset.module {
+    border: none;
+}
+
+.inline-related.tabular fieldset.module table {
+    width: 100%;
+}
+
+.last-related fieldset {
+    border: none;
+}
+
+.inline-group .tabular tr.has_original td {
+    padding-top: 2em;
+}
+
+.inline-group .tabular tr td.original {
+    padding: 2px 0 0 0;
+    width: 0;
+    _position: relative;
+}
+
+.inline-group .tabular th.original {
+    width: 0px;
+    padding: 0;
+}
+
+.inline-group .tabular td.original p {
+    position: absolute;
+    left: 0;
+    height: 1.1em;
+    padding: 2px 7px;
+    overflow: hidden;
+    font-size: 9px;
+    font-weight: bold;
+    color: #666;
+    _width: 700px;
+}
+
+.inline-group ul.tools {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.inline-group ul.tools li {
+    display: inline;
+    padding: 0 5px;
+}
+
+.inline-group div.add-row,
+.inline-group .tabular tr.add-row td {
+    color: #666;
+    background: #f1fff7;
+}
+
+.inline-group .tabular tr.add-row td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #c4dce8;
+}
+
+.inline-group ul.tools a.add,
+.inline-group div.add-row a,
+.inline-group .tabular tr.add-row td a {
+    background: url(/static/admin/img/icon_addlink.gif) 0 50% no-repeat;
+    padding-left: 14px;
+    font-size: 11px;
+    outline: 0; /* Remove dotted border around link */
+}
+
+.empty-form {
+    display: none;
+}
+
+/* RELATED FIELD ADD ONE / LOOKUP */
+
+.add-another, .related-lookup {
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.related-lookup {
+    width: 16px;
+    height: 16px;
+    background-image: url(/static/admin/img/selector-search.gif);
+}
+
+form .related-widget-wrapper ul {
+    display: inline-block;
+    margin-left: 0;
+    padding-left: 0;
+}
