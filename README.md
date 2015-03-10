@@ -42,15 +42,16 @@ Tested in:
 ### Screenshot Examples
 
 **Login page**
-![screenshot 2015-03-10 2 23 58](https://cloud.githubusercontent.com/assets/209663/6565257/94e68806-c6d0-11e4-82e1-7db575c5da73.png)
+![screenshot 2015-03-10 12 09 22](https://cloud.githubusercontent.com/assets/209663/6570553/69f33268-c71e-11e4-9ac6-48866199f5f5.png)
+
 
 **Dashboard**
-![screenshot 2015-03-10 2 25 20](https://cloud.githubusercontent.com/assets/209663/6565267/a4140682-c6d0-11e4-92aa-8087bb3feb5a.png)
+![screenshot 2015-03-10 12 08 18](https://cloud.githubusercontent.com/assets/209663/6570557/76b7d878-c71e-11e4-8f25-513a0170fbba.png)
+
 
 **List of objects**
-![screenshot 2015-03-10 2 24 13](https://cloud.githubusercontent.com/assets/209663/6565271/aeee71fa-c6d0-11e4-9ab3-efec2fca49c5.png)
+![screenshot 2015-03-10 12 08 32](https://cloud.githubusercontent.com/assets/209663/6570565/8cd90460-c71e-11e4-87da-70dc340c7a50.png)
+
 
 **New object**
-![screenshot 2015-03-10 2 24 34](https://cloud.githubusercontent.com/assets/209663/6565288/ba0699c8-c6d0-11e4-9ec0-4171858376ed.png)
-
-
+![screenshot 2015-03-10 12 08 55](https://cloud.githubusercontent.com/assets/209663/6570563/8074bc1e-c71e-11e4-97e4-146f9d824f81.png)
