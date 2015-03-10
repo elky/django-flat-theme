@@ -12,27 +12,18 @@ This app just overrides default admin's CSS. All changes are about colors, margi
 Install via pip: ```pip install git+https://github.com/elky/django-flat-theme.git@master```
 
 
-1. Just put ```flat``` app in your **INSTALLED_APPS** section:
+1. Put ```flat``` app in your *INSTALLED_APPS* **BEFORE** ```django.contrib.admin```:
 
     ```
 INSTALLED_APPS = (
         ...
         'flat',
+        'django.contrib.admin',
         ...
 )
 ```
 
-2. Add ```os.path.join(BASE_DIR, "flat/templates")``` to your **TEMPLATE_DIRS** section:
-
-    ```
-TEMPLATE_DIRS = (
-        ...
-        os.path.join(BASE_DIR, "theme/templates"),
-        ...
-)
-```
-
-That's it!
+That's it.
 
 
 ### Compatibility

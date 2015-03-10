@@ -1,3 +1,2 @@
 recursive-include flat/static *
-recursive-include flat/templates *
 include README.md
