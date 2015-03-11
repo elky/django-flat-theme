@@ -4,7 +4,7 @@
 
 .form-row {
     overflow: hidden;
-    padding: 12px;
+    padding: 10px;
     font-size: 13px;
     border-bottom: 1px solid #eee;
 }
@@ -84,10 +84,16 @@ form ul.inline li {
 .aligned label {
     display: block;
     padding: 0 10px 2px 0;
-    line-height: 30px;
     float: left;
     width: 160px;
     word-wrap: break-word;
+    line-height: 1.1;
+}
+
+.aligned label:not(.vCheckboxLabel):after {
+    content: '';
+    line-height: 30px;
+    vertical-align: middle;
 }
 
 .aligned label + p:not(.help) {
@@ -105,14 +111,28 @@ form ul.inline li {
     width: 350px;
 }
 
-form .aligned p, form .aligned ul {
+form .aligned ul {
     margin-left: 160px;
     padding-left: 10px;
 }
 
+form .aligned ul.radiolist {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
 form .aligned p.help {
     margin-top: 0;
+    margin-left: 0;
     padding-top: 0;
+    padding-left: 0px;
+}
+
+form .aligned input + p.help,
+form .aligned textarea + p.help,
+form .aligned select + p.help {
+    margin-left: 160px;
     padding-left: 10px;
 }
 
@@ -151,11 +171,11 @@ fieldset .field-box {
 /* WIDE FIELDSETS */
 
 .wide label {
-    width: 15em !important;
+    width: 200px !important;
 }
 
 form .wide p {
-    margin-left: 15em;
+    margin-left: 200px !important;
 }
 
 form .wide p.help {
@@ -183,7 +203,7 @@ fieldset.collapsed {
 }
 
 fieldset.collapsed h2 {
-    background: #f1fff7;
+    background: #f8f8f8;
     color: #666;
 }
 
@@ -205,8 +225,8 @@ textarea {
 /* SUBMIT ROW */
 
 .submit-row {
-    padding: 20px;
-    margin: 40px 0 0;
+    padding: 14px;
+    margin: 0 0 20px;
     background: #f8f8f8;
     border: 1px solid #eee;
     border-radius: 4px;
@@ -414,12 +434,12 @@ body.popup .submit-row {
 .inline-group div.add-row,
 .inline-group .tabular tr.add-row td {
     color: #666;
-    background: #f1fff7;
+    background: #f8f8f8;
 }
 
 .inline-group .tabular tr.add-row td {
     padding: 8px 10px;
-    border-bottom: 1px solid #c4dce8;
+    border-bottom: 1px solid #eee;
 }
 
 .inline-group ul.tools a.add,
@@ -427,7 +447,7 @@ body.popup .submit-row {
 .inline-group .tabular tr.add-row td a {
     background: url(/static/admin/img/icon_addlink.gif) 0 50% no-repeat;
     padding-left: 14px;
-    font-size: 11px;
+    font-size: 12px;
     outline: 0; /* Remove dotted border around link */
 }
 

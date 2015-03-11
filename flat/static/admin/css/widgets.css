@@ -226,6 +226,8 @@ p.datetime {
 
 form .form-row p.datetime {
     font-size: 13px !important;
+    margin-left: 160px;
+    padding-left: 10px !important;
 }
 
 .datetime span {
@@ -270,6 +272,10 @@ p.file-upload {
     color: #666;
     font-size: 11px;
     font-weight: bold;
+}
+
+.aligned p.file-upload {
+    margin-left: 170px;
 }
 
 .file-upload a {

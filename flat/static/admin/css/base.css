@@ -180,7 +180,7 @@ p.tiny {
 }
 
 .mini {
-    font-size: 9px;
+    font-size: 10px;
 }
 
 p.mini {
@@ -267,6 +267,7 @@ tfoot td {
     font-size: 11px;
     background: #fff;
     border: none;
+    border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
 }
 
@@ -328,13 +329,13 @@ thead th.sorted .text {
 
 table thead th .text span {
     display: block;
-    padding: 10px;
+    padding: 8px 10px;
 }
 
 table thead th .text a {
     display: block;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px 10px;
 }
 
 table thead th.sortable:hover {
@@ -426,7 +427,6 @@ textarea {
 
 input[type=text], input[type=password], input[type=email], input[type=url], input[type=number],
 textarea, select, .vTextField {
-    min-width: 200px;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 5px 6px;
@@ -441,6 +441,10 @@ textarea:focus, select:focus, .vTextField:focus {
 
 select {
     height: 30px;
+}
+
+select[multiple] {
+    min-height: 150px;
 }
 
 /* FORM BUTTONS */
@@ -518,6 +522,13 @@ a.button {
     text-align: left;
     background: #79aec8;
     color: #fff;
+}
+
+.module caption,
+.inline-group h2 {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 .module table {
@@ -731,7 +742,7 @@ table#change-history tbody th {
 #container {
     position: relative;
     width: 100%;
-    min-width: 960px;
+    min-width: 980px;
     padding: 0;
 }
 
@@ -741,7 +752,7 @@ table#change-history tbody th {
 }
 
 .dashboard #content {
-    width: 640px;
+    width: 600px;
 }
 
 #content-main {
@@ -751,9 +762,9 @@ table#change-history tbody th {
 
 #content-related {
     float: right;
-    width: 320px;
+    width: 260px;
     position: relative;
-    margin-right: -360px;
+    margin-right: -300px;
 }
 
 #footer {
@@ -782,7 +793,7 @@ table#change-history tbody th {
 }
 
 .popup .colM {
-    width: 95%;
+    width: auto;
 }
 
 .subcol {
@@ -796,7 +807,6 @@ table#change-history tbody th {
 
 #header {
     width: auto;
-    min-width: 960px;
     height: 40px;
     padding: 10px 40px;
     background: #417690;
@@ -846,7 +856,7 @@ table#change-history tbody th {
     padding: 0;
     margin: 0 0 0 20px;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     text-align: right;
@@ -894,7 +904,7 @@ table#change-history tbody th {
 }
 
 #content-related .actionlist li {
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 10px;
     padding-left: 18px;
 }
@@ -935,4 +945,18 @@ table#change-history tbody th {
 .delete-confirmation form .cancel-link:active,
 .delete-confirmation form .cancel-link:hover {
     background: #ccc;
+}
+
+
+/* POPUP */
+.popup #content {
+    padding: 20px;
+}
+
+.popup #container {
+    min-width: 0;
+}
+
+.popup #header {
+    padding: 10px 20px;
 }
