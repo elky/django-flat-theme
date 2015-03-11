@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    margin: 0 0 20px;
+    margin: 0 0 14px;
     font-weight: 300;
     font-size: 20px;
     color: #666;
@@ -252,7 +252,7 @@ td, th {
     line-height: 15px;
     border-bottom: 1px solid #eee;
     vertical-align: top;
-    padding: 10px;
+    padding: 6px 10px;
 }
 
 th {
@@ -493,7 +493,7 @@ a.button {
 
 .module {
     border: none;
-    margin-bottom: 30px;
+    margin-bottom: 14px;
     background: #fff;
 }
 
@@ -516,7 +516,7 @@ a.button {
 
 .module h2, .module caption, .inline-group h2 {
     margin: 0;
-    padding: 8px 10px;
+    padding: 6px 10px;
     font-weight: 400;
     font-size: 13px;
     text-align: left;
@@ -631,7 +631,7 @@ div.system-message p.system-message-title {
 
 div.breadcrumbs {
     background: #79aec8;
-    padding: 10px 40px;
+    padding: 6px 40px;
     border: none;
     font-size: 14px;
     color: #c4dce8;
@@ -679,7 +679,7 @@ a.deletelink:hover {
     padding-left: 0;
     float: right;
     position: relative;
-    margin-top: -48px;
+    margin-top: -38px;
 }
 
 .form-row .object-tools {
@@ -747,7 +747,7 @@ table#change-history tbody th {
 }
 
 #content {
-    padding: 20px 40px;
+    padding: 14px 30px;
     margin: 0;
 }
 
@@ -808,7 +808,7 @@ table#change-history tbody th {
 #header {
     width: auto;
     height: 40px;
-    padding: 10px 40px;
+    padding: 6px 30px;
     background: #417690;
     line-height: 40px;
     color: #ffc;
