@@ -564,7 +564,7 @@ ul.messagelist li.error {
     font-size: 14px !important;
     font-weight: 500;
     display: block;
-    padding: 10px 12px 10px 24px;
+    padding: 10px 12px;
     margin: 0 0 10px 0;
     color: #ba2121;
     border: 1px solid #ba2121;

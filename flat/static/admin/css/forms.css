@@ -24,6 +24,11 @@
     vertical-align: middle;
 }
 
+.form-row label input[type="checkbox"] {
+    margin-top: 0;
+    vertical-align: 0;
+}
+
 form .form-row p {
     padding-left: 0;
     font-size: 11px !important;
@@ -83,7 +88,7 @@ form ul.inline li {
 
 .aligned label {
     display: block;
-    padding: 0 10px 2px 0;
+    padding: 0 10px 0 0;
     float: left;
     width: 160px;
     word-wrap: break-word;
@@ -107,6 +112,10 @@ form ul.inline li {
     width: auto;
 }
 
+.aligned .form-row input {
+    margin-bottom: 0;
+}
+
 .colMS .aligned .vLargeTextField, .colMS .aligned .vXMLLargeTextField {
     width: 350px;
 }
@@ -124,9 +133,18 @@ form .aligned ul.radiolist {
 
 form .aligned p.help {
     margin-top: 0;
+    margin-left: 160px;
+    padding-left: 10px;
+}
+
+form .aligned label + p.help {
     margin-left: 0;
-    padding-top: 0;
-    padding-left: 0px;
+    padding-left: 0;
+}
+
+form .aligned p.help:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 form .aligned input + p.help,
@@ -147,11 +165,10 @@ form .aligned table p {
 
 .aligned .vCheckboxLabel {
     float: none !important;
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
     padding-left: 6px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 2px;
 }
 
 .colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
@@ -197,7 +214,7 @@ fieldset.collapsed h2, fieldset.collapsed {
 }
 
 fieldset.collapsed {
-    border: 1px solid #c4dce8;
+    border: 1px solid #eee;
     border-radius: 4px;
     overflow: hidden;
 }
@@ -207,9 +224,14 @@ fieldset.collapsed h2 {
     color: #666;
 }
 
+fieldset .collapse-toggle {
+    color: #fff;
+}
+
 fieldset.collapsed .collapse-toggle {
     background: transparent;
     display: inline !important;
+    color: #447e9b;
 }
 
 /* MONOSPACE TEXTAREAS */
@@ -225,7 +247,7 @@ textarea {
 /* SUBMIT ROW */
 
 .submit-row {
-    padding: 14px;
+    padding: 12px 14px;
     margin: 0 0 20px;
     background: #f8f8f8;
     border: 1px solid #eee;
@@ -331,7 +353,7 @@ body.popup .submit-row {
 
 .inline-group {
     padding: 0;
-    margin: 10px 0;
+    margin: 0 0 30px;
 }
 
 .inline-group thead th {

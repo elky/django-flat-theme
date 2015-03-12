@@ -50,14 +50,14 @@
 .selector .selector-filter label,
 .inline-group .aligned .selector .selector-filter label {
     float: left;
-    margin: 5px 0 0;
+    margin: 0;
     width: 16px;
-    padding: 2px;
+    padding: 0 2px;
     line-height: 1;
 }
 
 .selector .selector-available input {
-    width: 340px;
+    width: 320px;
     margin-left: 8px;
 }
 
@@ -240,6 +240,7 @@ form .form-row p.datetime {
 .datetime input {
     min-width: 0;
     margin-left: 5px;
+    margin-bottom: 4px !important;
 }
 
 table p.datetime {
