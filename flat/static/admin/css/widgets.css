@@ -1,18 +1,18 @@
 /* SELECTOR (FILTER INTERFACE) */
 
 .selector {
-    width: 840px;
+    width: 800px;
     float: left;
 }
 
 .selector select {
-    width: 400px;
+    width: 380px;
     height: 17.2em;
 }
 
 .selector-available, .selector-chosen {
     float: left;
-    width: 400px;
+    width: 380px;
     text-align: center;
     margin-bottom: 5px;
 }

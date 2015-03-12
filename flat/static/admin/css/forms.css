@@ -349,10 +349,11 @@ body.popup .submit-row {
 .inline-related h3 {
     margin: 0;
     color: #666;
-    padding: 3px 5px;
-    font-size: 11px;
-    background: #e1e1e1 url(/static/admin/img/nav-bg.gif) top left repeat-x;
-    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    font-size: 13px;
+    background: #f8f8f8;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .inline-related h3 span.delete {
@@ -435,6 +436,8 @@ body.popup .submit-row {
 .inline-group .tabular tr.add-row td {
     color: #666;
     background: #f8f8f8;
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
 }
 
 .inline-group .tabular tr.add-row td {
