@@ -225,8 +225,8 @@ textarea {
 /* SUBMIT ROW */
 
 .submit-row {
-    padding: 14px;
-    margin: 0 0 20px;
+    padding: 10px 14px;
+    margin: 0 0 14px;
     background: #f8f8f8;
     border: 1px solid #eee;
     border-radius: 4px;
