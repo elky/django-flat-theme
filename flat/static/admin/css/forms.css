@@ -491,6 +491,8 @@ body.popup .submit-row {
     width: 16px;
     height: 16px;
     background-image: url(/static/admin/img/selector-search.gif);
+    vertical-align: middle;
+    margin-top: -1px;
 }
 
 form .related-widget-wrapper ul {
