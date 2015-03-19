@@ -240,10 +240,6 @@ fieldset.monospace textarea {
     font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
 }
 
-textarea {
-    resize: vertical;
-}
-
 /* SUBMIT ROW */
 
 .submit-row {
