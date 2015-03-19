@@ -27,10 +27,10 @@ INSTALLED_APPS = (
 
 
 ### Compatibility
-Tested with Django 1.7 only. If you find any problems in other Django versions - please [create an issue](https://github.com/elky/django-flat-theme/issues/new).
+Works correct in Django 1.6+. Older Django versions use a slightly different way to show icons, so it requires changing markup or adding python logic to make this theme compatible.
 
 ### Font
-This theme uses [Roboto](http://www.google.com/fonts/specimen/Roboto) font. It includes Latin, Latin Extended, Cyrilic, Cyrilic Extended, Greek, Greek Extended subsets. Not sure about others. I will appreciate if someone would test admin interface with **i18n** to find any font issues.
+This theme uses [Roboto](http://www.google.com/fonts/specimen/Roboto) font which is under Apache 2.0 licence.
 
 ### Testing
 Tested in:
