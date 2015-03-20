@@ -371,27 +371,27 @@ table thead th.sorted .sortoptions a {
 }
 
 table thead th.sorted .sortoptions a.sortremove {
-    background: url(/static/admin/img/sorting-icons.gif) -4px -5px no-repeat;
+    background: url(../img/sorting-icons.gif) -4px -5px no-repeat;
 }
 
 table thead th.sorted .sortoptions a.sortremove:hover {
-    background: url(/static/admin/img/sorting-icons.gif) -4px -27px no-repeat;
+    background: url(../img/sorting-icons.gif) -4px -27px no-repeat;
 }
 
 table thead th.sorted .sortoptions a.ascending {
-    background: url(/static/admin/img/sorting-icons.gif) -5px -50px no-repeat;
+    background: url(../img/sorting-icons.gif) -5px -50px no-repeat;
 }
 
 table thead th.sorted .sortoptions a.ascending:hover {
-    background: url(/static/admin/img/sorting-icons.gif) -5px -72px no-repeat;
+    background: url(../img/sorting-icons.gif) -5px -72px no-repeat;
 }
 
 table thead th.sorted .sortoptions a.descending {
-    background: url(/static/admin/img/sorting-icons.gif) -5px -94px no-repeat;
+    background: url(../img/sorting-icons.gif) -5px -94px no-repeat;
 }
 
 table thead th.sorted .sortoptions a.descending:hover {
-    background: url(/static/admin/img/sorting-icons.gif) -5px -115px no-repeat;
+    background: url(../img/sorting-icons.gif) -5px -115px no-repeat;
 }
 
 /* ORDERABLE TABLES */
@@ -402,7 +402,7 @@ table.orderable tbody tr td:hover {
 
 table.orderable tbody tr td:first-child {
     padding-left: 14px;
-    background-image: url(/static/admin/img/nav-bg-grabber.gif);
+    background-image: url(../img/nav-bg-grabber.gif);
     background-repeat: repeat-y;
 }
 
@@ -548,16 +548,16 @@ ul.messagelist li {
     font-size: 13px;
     padding: 10px 10px 10px 65px;
     margin: 0 0 10px 0;
-    background: #dfd url(/static/admin/img/icon_success.gif) 40px 12px no-repeat;
+    background: #dfd url(../img/icon_success.gif) 40px 12px no-repeat;
     color: #333;
 }
 
 ul.messagelist li.warning {
-    background: #ffc url(/static/admin/img/icon_alert.gif) 40px 10px no-repeat;
+    background: #ffc url(../img/icon_alert.gif) 40px 10px no-repeat;
 }
 
 ul.messagelist li.error {
-    background: #ffefef url(/static/admin/img/icon_error.gif) 40px 11px no-repeat;
+    background: #ffefef url(../img/icon_error.gif) 40px 11px no-repeat;
 }
 
 .errornote {
@@ -619,7 +619,7 @@ div.system-message p.system-message-title {
     padding: 4px 5px 4px 25px;
     margin: 0;
     color: #c11;
-    background: #ffefef url(/static/admin/img/icon_error.gif) 5px .3em no-repeat;
+    background: #ffefef url(../img/icon_error.gif) 5px .3em no-repeat;
 }
 
 .description {
@@ -650,17 +650,17 @@ div.breadcrumbs a:hover {
 
 .addlink {
     padding-left: 14px;
-    background: url(/static/admin/img/icon_addlink.gif) 0 .2em no-repeat;
+    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
 }
 
 .changelink, .inlinechangelink {
     padding-left: 14px;
-    background: url(/static/admin/img/icon_changelink.gif) 0 .2em no-repeat;
+    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
 }
 
 .deletelink {
     padding-left: 14px;
-    background: url(/static/admin/img/icon_deletelink.gif) 0 .25em no-repeat;
+    background: url(../img/icon_deletelink.gif) 0 .25em no-repeat;
 }
 
 a.deletelink:link, a.deletelink:visited {
@@ -718,12 +718,12 @@ a.deletelink:hover {
 }
 
 .object-tools a.viewsitelink, .object-tools a.golink {
-    background: #999 url(/static/admin/img/tooltag-arrowright.png) 95% center no-repeat;
+    background: #999 url(../img/tooltag-arrowright.png) 95% center no-repeat;
     padding-right: 26px;
 }
 
 .object-tools a.addlink {
-    background: #999 url(/static/admin/img/tooltag-add.png) 95% center no-repeat;
+    background: #999 url(../img/tooltag-add.png) 95% center no-repeat;
     padding-right: 26px;
 }
 

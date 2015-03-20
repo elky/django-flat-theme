@@ -466,7 +466,7 @@ body.popup .submit-row {
 .inline-group ul.tools a.add,
 .inline-group div.add-row a,
 .inline-group .tabular tr.add-row td a {
-    background: url(/static/admin/img/icon_addlink.gif) 0 50% no-repeat;
+    background: url(../img/icon_addlink.gif) 0 50% no-repeat;
     padding-left: 14px;
     font-size: 12px;
     outline: 0; /* Remove dotted border around link */
@@ -486,7 +486,7 @@ body.popup .submit-row {
 .related-lookup {
     width: 16px;
     height: 16px;
-    background-image: url(/static/admin/img/selector-search.gif);
+    background-image: url(../img/selector-search.gif);
     vertical-align: middle;
     margin-top: -1px;
 }
