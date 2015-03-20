@@ -324,7 +324,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
-    padding: 4px;
+    padding: 0 0 0 4px;
     margin: 0;
     margin-left: 10px;
 }
