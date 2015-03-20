@@ -91,23 +91,23 @@
 }
 
 .selector-add {
-    background: url(/static/admin/img/selector-icons.gif) 0 -161px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -161px no-repeat;
     cursor: default;
     margin-bottom: 2px;
 }
 
 .active.selector-add {
-    background: url(/static/admin/img/selector-icons.gif) 0 -187px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -187px no-repeat;
     cursor: pointer;
 }
 
 .selector-remove {
-    background: url(/static/admin/img/selector-icons.gif) 0 -109px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -109px no-repeat;
     cursor: default;
 }
 
 .active.selector-remove {
-    background: url(/static/admin/img/selector-icons.gif) 0 -135px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -135px no-repeat;
     cursor: pointer;
 }
 
@@ -133,22 +133,22 @@ a.active.selector-chooseall:hover, a.active.selector-clearall:hover {
 }
 
 a.selector-chooseall {
-    background: url(/static/admin/img/selector-icons.gif) right -263px no-repeat;
+    background: url(../img/selector-icons.gif) right -263px no-repeat;
     cursor: default;
 }
 
 a.active.selector-chooseall {
-    background: url(/static/admin/img/selector-icons.gif) right -289px no-repeat;
+    background: url(../img/selector-icons.gif) right -289px no-repeat;
     cursor: pointer;
 }
 
 a.selector-clearall {
-    background: url(/static/admin/img/selector-icons.gif) left -211px no-repeat;
+    background: url(../img/selector-icons.gif) left -211px no-repeat;
     cursor: default;
 }
 
 a.active.selector-clearall {
-    background: url(/static/admin/img/selector-icons.gif) left -237px no-repeat;
+    background: url(../img/selector-icons.gif) left -237px no-repeat;
     cursor: pointer;
 }
 
@@ -194,22 +194,22 @@ a.active.selector-clearall {
 }
 
 .stacked .selector-add {
-    background: url(/static/admin/img/selector-icons.gif) 0 -57px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -57px no-repeat;
     cursor: default;
 }
 
 .stacked .active.selector-add {
-    background: url(/static/admin/img/selector-icons.gif) 0 -83px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -83px no-repeat;
     cursor: pointer;
 }
 
 .stacked .selector-remove {
-    background: url(/static/admin/img/selector-icons.gif) 0 -5px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -5px no-repeat;
     cursor: default;
 }
 
 .stacked .active.selector-remove {
-    background: url(/static/admin/img/selector-icons.gif) 0 -31px no-repeat;
+    background: url(../img/selector-icons.gif) 0 -31px no-repeat;
     cursor: pointer;
 }
 
@@ -481,7 +481,7 @@ ul.orderer li {
     border-width: 0 1px 1px 0;
     white-space: nowrap;
     overflow: hidden;
-    background: #e2e2e2 url(/static/admin/img/nav-bg-grabber.gif) repeat-y;
+    background: #e2e2e2 url(../img/nav-bg-grabber.gif) repeat-y;
 }
 
 ul.orderer li:hover {
@@ -513,7 +513,7 @@ ul.orderer li.selected {
 }
 
 ul.orderer li.deleted {
-    background: #bbb url(/static/admin/img/deleted-overlay.gif);
+    background: #bbb url(../img/deleted-overlay.gif);
 }
 
 ul.orderer li.deleted a:link, ul.orderer li.deleted a:visited {
@@ -521,7 +521,7 @@ ul.orderer li.deleted a:link, ul.orderer li.deleted a:visited {
 }
 
 ul.orderer li.deleted .inline-deletelink {
-    background-image: url(/static/admin/img/inline-restore.png);
+    background-image: url(../img/inline-restore.png);
 }
 
 ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
@@ -533,7 +533,7 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
 .inline-deletelink {
     float: right;
     text-indent: -9999px;
-    background: transparent url(/static/admin/img/inline-delete.png) no-repeat;
+    background: transparent url(../img/inline-delete.png) no-repeat;
     width: 15px;
     height: 15px;
     border: 0px none;
@@ -572,11 +572,11 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
 }
 
 .editinline tr.deleted {
-    background: #ddd url(/static/admin/img/deleted-overlay.gif);
+    background: #ddd url(../img/deleted-overlay.gif);
 }
 
 .editinline tr.deleted .inline-deletelink {
-    background-image: url(/static/admin/img/inline-restore.png);
+    background-image: url(../img/inline-restore.png);
 }
 
 .editinline tr.deleted td:hover {
@@ -607,13 +607,13 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
 .editinline-stacked .inline-splitter {
     float: left;
     width: 9px;
-    background: #f8f8f8 url(/static/admin/img/inline-splitter-bg.gif) 50% 50% no-repeat;
+    background: #f8f8f8 url(../img/inline-splitter-bg.gif) 50% 50% no-repeat;
     border-right: 1px solid #ccc;
 }
 
 .editinline-stacked .controls {
     clear: both;
-    background: #e1e1e1 url(/static/admin/img/nav-bg.gif) top left repeat-x;
+    background: #e1e1e1 url(../img/nav-bg.gif) top left repeat-x;
     padding: 3px 4px;
     font-size: 11px;
     border-top: 1px solid #ddd;
