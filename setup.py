@@ -9,7 +9,7 @@ setup(
     description = ('A flat theme for Django admin interface. Modern, fresh, simple.'),
     license = 'BSD',
     url = 'https://github.com/elky/django-flat-theme',
-    download_url = 'https://github.com/elky/django-flat-theme/tarball/0.9.1',
+    download_url = 'https://github.com/elky/django-flat-theme/tarball/0.9.2',
     keywords = ['django', 'admin', 'theme', 'interface'],
     include_package_data = True,
 )
