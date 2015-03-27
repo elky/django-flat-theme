@@ -249,10 +249,10 @@ table {
 td, th {
     font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 16px;
     border-bottom: 1px solid #eee;
     vertical-align: top;
-    padding: 10px;
+    padding: 8px;
 }
 
 th {
@@ -516,7 +516,7 @@ a.button {
 
 .module h2, .module caption, .inline-group h2 {
     margin: 0;
-    padding: 8px 10px;
+    padding: 8px;
     font-weight: 400;
     font-size: 13px;
     text-align: left;
