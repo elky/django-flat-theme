@@ -104,9 +104,10 @@ form ul.inline li {
 
 .aligned label + p:not(.help) {
     font-size: 13px !important;
-    padding: 6px 0 0;
+    padding: 6px 0;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 170px;
 }
 
 .aligned ul label {
@@ -169,8 +170,12 @@ form .aligned table p {
 .aligned .vCheckboxLabel {
     float: none !important;
     display: inline-block;
-    vertical-align: -2px;
+    vertical-align: -3px;
     padding: 0 0 5px 5px;
+}
+
+.aligned .vCheckboxLabel + p.help {
+    margin-top: -4px;
 }
 
 .colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
@@ -433,7 +438,7 @@ body.popup .submit-row {
     position: absolute;
     left: 0;
     height: 1.1em;
-    padding: 2px 7px;
+    padding: 2px 9px;
     overflow: hidden;
     font-size: 9px;
     font-weight: bold;
@@ -489,12 +494,18 @@ body.popup .submit-row {
     width: 16px;
     height: 16px;
     background-image: url(../img/selector-search.gif);
+    background-repeat: no-repeat;
+    background-position: 0 3px;
     vertical-align: middle;
-    margin-top: -1px;
+    margin-top: -4px;
 }
 
 form .related-widget-wrapper ul {
     display: inline-block;
     margin-left: 0;
     padding-left: 0;
+}
+
+.clearable-file-input input {
+    margin-top: 0;
 }
