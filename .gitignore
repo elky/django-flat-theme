@@ -1,2 +1,6 @@
 *.pyc
+*.orig
 .DS_Store
+/env/
+/dist/
+/django_flat_theme.egg-info/
