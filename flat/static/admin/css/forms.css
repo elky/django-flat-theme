@@ -88,22 +88,25 @@ form ul.inline li {
 
 .aligned label {
     display: block;
-    padding: 0 10px 0 0;
+    padding: 4px 10px 0 0;
     float: left;
     width: 160px;
     word-wrap: break-word;
-    line-height: 1.1;
+    line-height: 1;
 }
 
 .aligned label:not(.vCheckboxLabel):after {
     content: '';
-    line-height: 30px;
+    display: inline-block;
     vertical-align: middle;
+    height: 26px;
 }
 
 .aligned label + p:not(.help) {
     font-size: 13px !important;
-    padding: 0;
+    padding: 6px 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .aligned ul label {
@@ -166,9 +169,8 @@ form .aligned table p {
 .aligned .vCheckboxLabel {
     float: none !important;
     display: inline-block;
-    vertical-align: middle;
-    padding-left: 6px;
-    padding-top: 2px;
+    vertical-align: -2px;
+    padding: 0 0 5px 5px;
 }
 
 .colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
