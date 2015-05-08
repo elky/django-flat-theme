@@ -9,17 +9,6 @@
     border-bottom: 1px solid #eee;
 }
 
-.form-row.errors {
-    margin: 0;
-    border: none;
-    border-bottom: 1px solid #eee;
-    background: none;
-}
-
-.form-row.errors ul.errorlist li {
-    padding-left: 0;
-}
-
 .form-row img, .form-row input {
     vertical-align: middle;
 }
@@ -488,6 +477,12 @@ body.popup .submit-row {
 .add-another, .related-lookup {
     margin-left: 5px;
     display: inline-block;
+}
+
+.add-another {
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/icon_addlink.gif);
 }
 
 .related-lookup {

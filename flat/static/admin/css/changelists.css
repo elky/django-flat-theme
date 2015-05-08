@@ -11,16 +11,16 @@
 
 .change-list .hiddenfields { display:none; }
 
+.change-list .filtered table {
+    border-right: none;
+}
+
 .change-list .filtered {
     min-height: 400px;
 }
 
 .change-list .filtered {
     background: #fff !important;
-}
-
-.change-list .filtered table {
-    border-right: none;
 }
 
 .change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
@@ -42,14 +42,9 @@
 
 #changelist .paginator {
     color: #666;
-    border-top: none;
     border-bottom: 1px solid #eee;
     background: #fff;
     overflow: hidden;
-}
-
-.change-list .filtered .paginator {
-    border-right: none;
 }
 
 /* CHANGELIST TABLES */
@@ -63,15 +58,6 @@
 #changelist table thead th.action-checkbox-column {
     width: 1.5em;
     text-align: center;
-}
-
-#changelist table tbody td, #changelist table tbody th {
-    border-left: none;
-}
-
-#changelist table tbody td:first-child, #changelist table tbody th:first-child {
-    border-left: 0;
-    border-right: none;
 }
 
 #changelist table tbody td.action-checkbox {
