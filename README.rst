@@ -11,7 +11,7 @@ Django framework. This theme just makes UI modern and clean.
 This app just overrides default admin's CSS. All changes are about
 colors, margins, sizes. Nothing major.
 
-**No any markup changes**.
+**There are no markup changes**.
 
 Installation
 ------------
