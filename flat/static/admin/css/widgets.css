@@ -662,3 +662,8 @@ ul.orderer li.deleted:hover, ul.orderer li.deleted a.selector:hover {
 .related-widget-wrapper-link:link {
     opacity: 1;
 }
+
+select + .related-widget-wrapper-link,
+.related-widget-wrapper-link + .related-widget-wrapper-link {
+    margin-left: 7px;
+}
