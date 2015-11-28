@@ -251,6 +251,10 @@ form .form-row p.datetime {
     padding-left: 10px;
 }
 
+form .tabular .form-row p.datetime {
+    margin-left: 0;
+}
+
 .datetime span {
     white-space: nowrap;
     font-weight: normal;
