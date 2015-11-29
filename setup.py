@@ -12,4 +12,16 @@ setup(
     download_url = 'https://github.com/elky/django-flat-theme/tarball/1.1.2',
     keywords = ['django', 'admin', 'theme', 'interface'],
     include_package_data = True,
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Environment :: Web Environment',
+        'Framework :: Django',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+    ],
 )
