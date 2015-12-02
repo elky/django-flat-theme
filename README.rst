@@ -1,5 +1,9 @@
-django-flat-theme
+Django Flat Theme
 =================
+
+**django-flat-theme** is `part <https://github.com/django/django/commit/35901e64b043733acd1687734274553cf994511b>`_ of Django since `1.9 <https://docs.djangoproject.com/en/1.9/releases/1.9/#new-styling-for-contrib-admin>`_! :tada:
+
+Please use this app if your project powered with older Django version.
 
 Description
 -----------
