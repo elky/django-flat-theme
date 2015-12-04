@@ -1,19 +1,19 @@
 Django Flat Theme
 =================
 
-**django-flat-theme** is `part <https://github.com/django/django/commit/35901e64b043733acd1687734274553cf994511b>`_ of Django since `1.9 <https://docs.djangoproject.com/en/1.9/releases/1.9/#new-styling-for-contrib-admin>`_! :tada:
+**django-flat-theme** is included as `part <https://github.com/django/django/commit/35901e64b043733acd1687734274553cf994511b>`_ of Django from `version 1.9 <https://docs.djangoproject.com/en/1.9/releases/1.9/#new-styling-for-contrib-admin>`_! :tada:
 
-Please use this app if your project powered with older Django version.
+Please use this app if your project is powered by an older Django version.
 
 Description
 -----------
 
 **django-flat-theme** brings fresh air to the default Django Admin
-interface which hasn't changed 10 years from the very first version of
-Django framework. This theme just makes UI modern and clean.
+interface which hasn't changed in 10 years, since the very first version of
+Django framework. This theme makes the UI modern and clean.
 
-This app overrides default admin's CSS. All changes are about colors,
-margins, sizes and icons. Nothing major.
+This app overrides the default admin's CSS. All the changes only involve CSS:
+colors, margins, sizes and icons; nothing major is changed.
 
 Installation
 ------------
@@ -38,23 +38,23 @@ Install via pip:
 Compatibility
 ~~~~~~~~~~~~~
 
-Works correct in Django 1.5+.
+Works properly in Django 1.5+.
 
 Font
 ~~~~
 
-This theme uses `Roboto <http://www.google.com/fonts/specimen/Roboto>`__
-font which is under Apache 2.0 licence.
+This theme uses the `Roboto font <http://www.google.com/fonts/specimen/Roboto>`__
+which is under Apache 2.0 licence.
 
 Testing
 ~~~~~~~
 
 Tested in:
 
-- IE7+ (IE8 and less doesn't support SVG so there are no icons displayed)
-- FF30+ (Windows, Ubuntu, OSX)
-- Chrome 35+ (Windows, Ubuntu, OSX)
-- Safari 8 (OSX)
+- Internet Explorer 7+ (IE8 and less doesn't support SVG so icons are not displayed)
+- Firefox 30+ (Windows, Ubuntu, OS X)
+- Chrome 35+ (Windows, Ubuntu, OS X)
+- Safari 8 (OS X)
 
 Screenshot Examples
 ~~~~~~~~~~~~~~~~~~~
